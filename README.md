@@ -1,8 +1,4 @@
-Here's the updated README file with `bg_remover.py`:
-
----
-
-# bg_remover.py
+# Background-Remover-Python
 
 `bg_remover.py` is a Python script designed to remove the background from images, making it ideal for tasks like product photography, portrait editing, or graphic design. This tool uses machine learning models to accurately detect and remove backgrounds, leaving the subject of the image isolated.
 
