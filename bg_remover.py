@@ -1,7 +1,7 @@
 from PIL import Image
 
 # Load the image
-image_path = "d3sm0nd.png"  # Ensure the image is in the same folder as the script
+image_path = input("Enter Your Image Path.\n If the image is within the same Folder Then just type the name of the image.:")  # Ensure the image is in the same folder as the script
 image = Image.open(image_path)
 
 # Convert the image to RGBA if not already
@@ -21,4 +21,4 @@ for item in datas:
 image.putdata(new_data)
 
 # Save the new image
-image.save("d3sm0nd_transparent.png", "PNG")
+image.save("image_transparent.png", "PNG")
